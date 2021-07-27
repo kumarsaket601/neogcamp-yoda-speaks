@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 :root{
 
-    --primary-color: black;
 }
 
-.background{
+body{
+    font-family: 'Lora',
+    serif;
+}
 
-    margin: 50%;
+
+/* output box */
+#output{
+    
+    border: 0.1rem solid black;
+    height: 20vh;
+    width: 70vh;
+    margin: 1rem 4rem;
+}
+
+
+/* textarea input that from user */
+textarea{
+
+    border: 00.1rem solid black;
+    height: 20vh;
+    width: 70vh;
+    margin: 1rem 4rem;
+
+}
+
+/* button */
+button{
+
+     border-radius: 10rem;  
+     background-color: #488BDF;
+     color: white;
+     font-size: 1rem;
+     padding: 0.5rem 1.5rem;
+     margin: 1rem 4rem;
+     border: white;
+     display: flex;
 }
