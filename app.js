@@ -7,4 +7,4 @@ console.log("clicked",btnTranslated);
 function clickHandler ( ){
 
 }
-btnTranslated("clicked",clickHandler)
+var btnTranslated('clicked',clickHandler)
