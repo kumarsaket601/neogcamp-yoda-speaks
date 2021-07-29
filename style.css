@@ -1,46 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-:root{
+:root {
+
+    --primary-color: #F8C0C8;
 
 }
 
-body{
+body {
     font-family: 'Lora',
-    serif;
-    maring: 0px;
-}
-
-
-/* output box */
-#output{
-    
-    border: 0.1rem solid black;
-    height: 20vh;
-    width: 70vh;
-    padding: 1rem 2rem;
+        serif;
+    margin: 10px;
 }
 
 
 /* textarea input that from user */
-textarea{
+
+textarea {
 
     border: 0.1rem solid black;
     height: 20vh;
     width: 70vh;
     margin: 1rem auto;
-    padding: 1rem 2rem;
+   
+   
 
 }
 
-/* button */
-button{
 
-     border-radius: 10rem;  
-     background-color: #488BDF;
-     color: white;
-     font-size: 1rem;
-     padding: 0.5rem 1.5rem;
-     margin: 1rem 4rem;
-     border: white;
-     display: flex;
+
+
+/* button */
+
+button {
+
+    border-radius: 10rem;
+    background-color: #488BDF;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    margin: 2rem auto;
+    border: 20rem;
+    max-width: 900px;
+}
+
+
+/* output box */
+
+#output {
+
+    border: 0.1rem solid black;
+    height: 20vh;
+    width: 70vh;
+    
+}
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    
+
+}
+
+.container-center {
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.container{
+
+    margin: 2rem auto;
+    max-width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+main .pagraph{
+    
+    padding: 1rem 1rem;
+    margin:  1rem auto;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul {
+    padding-inline-start: opx;
+}
+
+.list-non-bullet {
+    
+    list-style: none;
+}
+
+.list-item-inline {
+
+    display: inline;
+    padding: 0rem 1rem;
 }
