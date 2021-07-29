@@ -7,6 +7,7 @@
 body{
     font-family: 'Lora',
     serif;
+    maring: 0px;
 }
 
 
@@ -16,17 +17,18 @@ body{
     border: 0.1rem solid black;
     height: 20vh;
     width: 70vh;
-    margin: 1rem 4rem;
+    padding: 1rem 2rem;
 }
 
 
 /* textarea input that from user */
 textarea{
 
-    border: 00.1rem solid black;
+    border: 0.1rem solid black;
     height: 20vh;
     width: 70vh;
-    margin: 1rem 4rem;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
 
 }
 

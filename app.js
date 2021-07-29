@@ -1,33 +1,33 @@
 var btnTranslated = document.querySelector("#btn-translate");
-var inputText = document.querySelector("#text-input");
+var textInput = document.querySelector("#text-input");
 var outputText = document.querySelector("#output");
-var log = console.log;
 
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
+var serverURL = "https://api.funtranslations.com/translate/pig-latin.json"
 
 function getServerTranslation(input){
 
-    return serverURL + "?" + "text=" + input;
-}
+    return serverURL + "?" + "text=" + input
+};
 
-function errorHandler(){
+function errorHandler(error){
     log("Something error", error);
     alert("Something broke Please try it later");
 }
 
 function clickHandler() {
 
-var inputYoda = inputText.value;
+    var inputYoda = textInput.value;
 
 
    fetch(getServerTranslation(inputYoda))
-     .then(response => response.json())
-     .then(json => {
-         var converted = json.contents.translated;
-         outputText.innerText = converted;
+         .then(response => response.json())
+         .then(json => {
+         var convertedText = json.contents.translated;
+         outputText.innerText = convertedText;
     })
     .catch(errorHandler)
    
 
 };
-btnTranslated.addEventListener("click", clickHandler)
+btnTranslated.addEventListener("click",clickHandler)
