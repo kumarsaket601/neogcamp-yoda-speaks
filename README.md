@@ -1,5 +1,5 @@
 # neogcamp Piglatin - speaks
- app in javascript which is in any language
+ 
 ![image](https://user-images.githubusercontent.com/46194436/133555768-e437349d-2a47-4bb5-b311-d46667492a36.png)
 
 #PigLatin App
